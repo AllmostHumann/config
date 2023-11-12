@@ -1,8 +1,5 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
-  "[css]": {
-    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
-  },
   "workbench.startupEditor": "none",
   "git.autofetch": true,
   "git.confirmSync": false,
@@ -11,19 +8,10 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.iconTheme": "material-icon-theme",
   "editor.tabSize": 2,
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.codeActionsOnSave": {},
   "diffEditor.ignoreTrimWhitespace": false,
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
   "totalTypeScript.hiddenTips": [
     "typing-function-parameters",
     "ts-object-type",
@@ -49,17 +37,10 @@
   "css.lint.unknownAtRules": "ignore",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "oneDarkPro.editorTheme": "One Dark Pro Darker",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "oneDarkPro.italic": false,
   "prettier.endOfLine": "auto",
   "prettier.singleAttributePerLine": true,
   "editor.wordWrap": "on",
-  "interactiveSession.editor.wordWrap": "on",
   "diffEditor.wordWrap": "on",
   "indentRainbow.lightIndicatorStyleLineWidth": 5,
   "editor.bracketPairColorization.enabled": true,
@@ -69,19 +50,46 @@
     "live-preview-extension": true
   },
   "githubPullRequests.createOnPublishBranch": "never",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "console-ninja.featureSet": "Community",
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "One Dark Pro Mix",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.configPath": "prettier.config.js",
   "eslint.timeBudget.onValidation": {
     "warn": 4000,
     "error": 8000
   },
   "prettier.useEditorConfig": false,
-  "prettier.requireConfig": true
+  "prettier.requireConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[source.css.styled]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

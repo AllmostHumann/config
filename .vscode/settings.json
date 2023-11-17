@@ -52,7 +52,7 @@
   "githubPullRequests.createOnPublishBranch": "never",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "console-ninja.featureSet": "Community",
-  "workbench.colorTheme": "One Dark Pro Mix",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "editor.formatOnSave": true,
   "prettier.configPath": "prettier.config.js",
   "eslint.timeBudget.onValidation": {
@@ -91,5 +91,9 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.xml": "html",
+    "*.svg": "html"
   }
 }

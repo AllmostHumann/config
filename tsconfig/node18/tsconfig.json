@@ -2,8 +2,8 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "target": "ESNext",
-    "lib": ["ESNext"],
+    "target": "es2022",
+    "lib": ["es2022"],
     "sourceMap": true,
     "outDir": "dist",
     "esModuleInterop": true,
